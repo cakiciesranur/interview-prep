@@ -1,0 +1,9 @@
+
+m
+java:S1149'"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ô®š8˜ßÒ•ı.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(±÷ÁÎ8å­û•ı.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(¦§‡8¥®ü•ı.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËúÄ¡8ä«È•ı.
+j
+java:S5361;"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ë’Åìüÿÿÿÿ8ËÅ –ı.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(“ˆì£úÿÿÿÿ8¥®ü•ı.

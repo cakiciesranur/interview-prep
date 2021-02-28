@@ -1,0 +1,8 @@
+
+E	java:S108"")Either remove or fill this block of code.(ÌªŞÉ8ïãÌÍı.
+\
+java:S11265"AReplace this if-then-else statement by a single return statement.(²¹8ı¯¿Íı.
+g	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’ÆÔ¾øÿÿÿÿ
+O
+java:S1135("2Complete the task associated to this TODO comment.(ÓñàÍ8§ûÓı.

@@ -1,0 +1,19 @@
+
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(½¡îñ8çÔèÍü.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘‹ûÿÿÿÿ
+l
+java:S1149!"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‘óÄ8„ÒÊÍü.
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ÿ¨ÓÛ8„ÒÊÍü.
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ÿ¨ÓÛ8•ƒÉÍü.
+H
+java:S1168"+Return an empty collection instead of null.(¥¹ï8„ÒÊÍü.
+h	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Åœ®8Ôº—Íü.
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(éñ‚¢8çÔèÍü.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ó¼³Îúÿÿÿÿ8ûäéÍü.
+f
+java:S2259"DA "NullPointerException" could be thrown; "result" is nullable here.(ÏŒ­üúÿÿÿÿ8º×ŒÎü.

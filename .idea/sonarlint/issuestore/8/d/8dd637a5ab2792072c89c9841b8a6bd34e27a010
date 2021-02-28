@@ -1,0 +1,9 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(…³ö8ûİÑ–ı.
+t
+java:S3776&"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(—ŒÉşÿÿÿÿ8ÙˆÓ–ı.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(¿éê£8ûİÑ–ı.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(çºß…ıÿÿÿÿ8ûİÑ–ı.
+N
+java:S1128",Remove this unused import 'java.util.Stack'.(ŞÈ†üúÿÿÿÿ8ØÏ–ı.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Í ¥áıÿÿÿÿ8ûİÑ–ı.

@@ -1,0 +1,15 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½Æúêøÿÿÿÿ8–ŠëÌü.
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(±Ë–ã8ÃâéÌü.
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(±Ë–ã8ÃâéÌü.
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(àÊÜd8ÁÀÍÌü.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡ÍÉÃüÿÿÿÿ8–ŠëÌü.
+^
+java:S2094"BRemove this empty class, write its code or make it an "interface".(àÊÜd8åÿçÌü.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘‹ûÿÿÿÿ
+F
+java:S1659")Declare "oldestStack" on a separate line.(±Ë–ã8ÃâéÌü.

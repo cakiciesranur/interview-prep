@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êŸ”–
+m
+java:S2259"PA "NullPointerException" could be thrown; "getKthLastElement()" can return null.(€Ôåæ8ªÚàû.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÒœ½şÿÿÿÿ8¹­Ûàû.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾ƒ³Ù8°–ßû.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ…úÿÿÿÿ8¢ö“àû.
+r
+java:S2259"PA "NullPointerException" could be thrown; "getKthLastElement()" can return null.(ÎÒœ½şÿÿÿÿ8¹­Ûàû.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(€Ôåæ8ªÚàû.
+r
+java:S2259"PA "NullPointerException" could be thrown; "getKthLastElement()" can return null.(ƒ…úÿÿÿÿ8ø›˜àû.

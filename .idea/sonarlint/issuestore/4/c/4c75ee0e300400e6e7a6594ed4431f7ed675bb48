@@ -1,0 +1,10 @@
+
+E
+java:S1481
+"*Remove this unused "chars" local variable.(ì±ØËûÿÿÿÿ
+T
+java:S1854
+"9Remove this useless assignment to local variable "chars".(ì±ØËûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¼ùşÄ
+V	java:S125	"<This block of commented-out lines of code should be removed.(ÛÊ¿•üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²ÄÓ«ıÿÿÿÿ

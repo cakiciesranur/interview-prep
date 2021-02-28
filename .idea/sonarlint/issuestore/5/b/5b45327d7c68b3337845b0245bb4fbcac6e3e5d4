@@ -1,0 +1,8 @@
+
+8
+java:S2326"t is not used in the class.(ñİ‘Ü8ê¶õÅü.
+Y
+java:S1117""7Rename "data" which hides the field declared at line 7.(›×Éûÿÿÿÿ8ªŠˆÆü.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ñİ‘Ü8ĞõÅü.
+e	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ñİ‘Ü8ê¶õÅü.

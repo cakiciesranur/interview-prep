@@ -1,0 +1,9 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›ªß§
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—–¾ä
+E
+java:S1481"*Remove this unused "nums5" local variable.(½£™­üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æûýùýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™Ú…Î
+T
+java:S1854"9Remove this useless assignment to local variable "nums5".(½£™­üÿÿÿÿ

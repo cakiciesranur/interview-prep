@@ -1,0 +1,17 @@
+
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Îë8•ğÄÉü.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘‹ûÿÿÿÿ
+k
+java:S3551"IMake this method "synchronized" to match the parent class implementation.(è÷ëæüÿÿÿÿ8ªéÑÉü.
+l
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(èÍÆN8•ğÄÉü.
+l
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(èÍÆN8•ğÄÉü.
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Îë8•ğÄÉü.
+H
+java:S2160"+Override the "equals" method in this class.(Îë8•ğÄÉü.
+\
+java:S1161":Add the "@Override" annotation above this method signature(è÷ëæüÿÿÿÿ8ªéÑÉü.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”í®òüÿÿÿÿ8±–Éü.

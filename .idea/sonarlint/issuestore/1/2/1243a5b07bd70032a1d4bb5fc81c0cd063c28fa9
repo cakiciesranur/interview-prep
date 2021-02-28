@@ -1,0 +1,11 @@
+
+
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ηµν‘8κί§μό.
+W
+java:S1144%":Remove this unused private "createLevelLinkedList" method.(Η¬Ϊ8ώ©Τμό.
+i	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ά§νΈ8†Χ¥μό.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®χνόÿÿÿÿ
+H
+java:S1172+"&Remove these unused method parameters.(Πψγώώÿÿÿÿ8ΣΫ»νό.
+K
+java:S14810")Remove this unused "list" local variable.(ƒϊέψÿÿÿÿ8ΣΫ»νό.
