@@ -1,4 +1,4 @@
-package examples;
+package CodilityZalando;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package examples;
+package CodilityZalando;
 
 /**
  * An array A consisting of N integers is given. The elements of array A together represent a chain, and each element represents the strength of each link in the chain. We want to divide this chain into three smaller chains.
