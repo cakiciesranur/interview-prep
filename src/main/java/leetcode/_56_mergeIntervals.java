@@ -1,7 +1,9 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 
 /**
  * Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
@@ -17,31 +19,33 @@ import java.util.Comparator;
 public class _56_mergeIntervals {
     public static void main(String[] args) {
         int[][] input = new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 48}};
-        System.out.println(merge(input));
+        int[][] input2 = new int[][]{{1, 4}, {2, 3}};
+        merge(input);
     }
 
     public static int[][] merge(int[][] intervals) {
         if (intervals.length == 1) {
             return intervals;
         }
+        //Arrays.sort(intervals, Comparator.comparingInt(arr -> arr[0]));
+        //Arrays.sort(intervals, Comparator.comparingInt(arr -> arr[1]));
+        Arrays.sort(intervals, Comparator.<int[]>comparingInt(a -> a[0]).thenComparingInt(a -> a[1]));
 
-        Arrays.sort(intervals, Comparator.comparingInt(arr -> arr[0]));
-        int start = 0;
-        int end = 0;
+        List<int[]> res = new ArrayList<>();
+        res.add(new int[]{intervals[0][0], intervals[0][1]});
+        int listCursor = 0;
 
-        int[][] res = new int[intervals.length][2];
-        for (int i = 0; i < intervals.length - 1; i++) {
-            if (intervals[i][0] <= intervals[i + 1][0] && intervals[i][1] >= intervals[i + 1][0]) {
-                start = intervals[i][0];
-                end = intervals[i + 1][1];
+        for (int i = 1; i < intervals.length; i++) {
+            int[] prev = res.get(listCursor);
+
+            if (prev[1] >= intervals[i][0]) {
+                prev[0] = Math.min(intervals[i][0], prev[0]);
+                prev[1] = Math.max(intervals[i][1], prev[1]);
             } else {
-                start = intervals[i][0];
-                end = intervals[i][1];
+                res.add(intervals[i]);
+                listCursor++;
             }
-            res[i][0] = start;
-            res[i][1] = end;
-
         }
-        return res;
+        return res.toArray(new int[res.size()][]);
     }
 }
