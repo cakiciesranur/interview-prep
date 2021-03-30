@@ -29,17 +29,15 @@ import java.util.Map;
  * lRUCache.get(3);    // return 3
  * lRUCache.get(4);    // return 4
  */
-public class _146_LRUCache {
-}
+public class _146_LRUCache extends LinkedHashMap<Integer, Integer> {
+    /**
+     * Time complexity : O(1) both for put and get since all operations with ordered dictionary : get/in/set/move_to_end/popitem (get/containsKey/put/remove) are done in a constant time.
+     * Space complexity : O(capacity) since the space is used only for an ordered dictionary with at most capacity + 1 elements.
+     */
 
-/**
- * Time complexity : O(1) both for put and get since all operations with ordered dictionary : get/in/set/move_to_end/popitem (get/containsKey/put/remove) are done in a constant time.
- * Space complexity : O(capacity) since the space is used only for an ordered dictionary with at most capacity + 1 elements.
- */
-class LRUCache extends LinkedHashMap<Integer, Integer> {
     private int capacity;
 
-    public LRUCache(int capacity) {
+    public _146_LRUCache(int capacity) {
         super(capacity, 0.75F, true);
         this.capacity = capacity;
     }

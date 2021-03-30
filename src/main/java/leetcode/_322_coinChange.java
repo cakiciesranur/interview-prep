@@ -23,6 +23,11 @@ import java.util.Arrays;
  * Output: 2
  */
 public class _322_coinChange {
+    /**
+     * Complexity Analysis
+     * Time complexity : O(S*n)O(S∗n). On each step the algorithm finds the next F(i)F(i) in nn iterations, where 1\leq i \leq S1≤i≤S. Therefore in total the iterations are S*nS∗n.
+     * Space complexity : O(S)O(S). We use extra space for the memoization table.
+     */
     public static void main(String[] args) {
         //int[] input = new int[]{1, 2, 5};
         int[] input = new int[]{186, 419, 83, 408};
@@ -39,7 +44,7 @@ public class _322_coinChange {
             for (int j = 0; j < coins.length; j++) {
                 if (coins[j] <= i) {
                     int remain = amount - coins[j];
-                    dp[i] = Math.min(dp[i], dp[remain + 1]);
+                    dp[i] = Math.min(dp[i], dp[remain] + 1);
                 }
             }
         }
